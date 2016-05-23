@@ -41,6 +41,7 @@ juke.factory('PlayerFactory', function ($rootScope) {
   };
 
   player.getCurrentSong = function () {
+    console.info(currentSong);
     return currentSong;
   };
 

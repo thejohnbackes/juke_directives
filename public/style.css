@@ -49,3 +49,19 @@ footer {
 
 .album img {
   height: 300px; }
+
+
+  [double-click] {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer; }
+
+  tr[double-click]:hover {
+    background-color: #444; }
+
+song-info h4, song-info h5 {
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 2vw;
+  margin-bottom: 0;
+}
